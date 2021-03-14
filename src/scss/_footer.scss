@@ -1,0 +1,30 @@
+.footer {
+   width: 100%;
+   background: $gold;
+   padding: 60px 0;
+
+   .row {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .col {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+
+         &-1 {
+            align-self: flex-end;
+         }
+      }
+   }
+
+   &__link {
+      color: #fff;
+      text-decoration: none;
+
+      &-black {
+         color: #000;
+      }
+   }
+}

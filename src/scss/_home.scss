@@ -1,0 +1,27 @@
+.home {
+   background: url(../images/home/truck.png) center center/cover no-repeat;
+   padding: 155px 200px 220px;
+
+   &__title {
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      font-size: 50px;
+      margin-bottom: 45px;
+   }
+
+   &__subtitle {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      font-family: sans-serif;
+   }
+
+   &__block {
+      padding: 45px 0;
+      max-width: 920px;
+      border: 1px solid #C8A35F;
+      margin: 0 auto;
+   }
+}
